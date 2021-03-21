@@ -1,0 +1,21 @@
+CompileFlags: # Tweak the parse settings
+  Add:
+    - "-xc++"
+    - "-std=c++20"
+    # - "-stdlib=libc++"
+
+Index:
+  Background: Build # Build a type + incoming reference index in the background
+
+Diagnostics:
+  # https://clang.llvm.org/extra/clang-tidy/
+  ClangTidy:
+    Add:
+      - bugprone* # Checks that target bugprone code constructs.
+      - clang-analyze* # Clang Static Analyzer checks.
+      - concurrency* # Checks related to concurrent programming (including threads, fibers, coroutines, etc.).
+      # - cppcoreguidelines* # Checks related to C++ Core Guidelines.
+      - modernize* # Checks that advocate usage of modern (currently “modern” means “C++11”) language constructs.
+      - performance* # Checks that target performance-related issues.
+      - portability* # Checks that target portability-related issues that don’t relate to any particular coding style.
+      - readability* # Checks that target readability-related issues that don’t relate to any particular coding style.

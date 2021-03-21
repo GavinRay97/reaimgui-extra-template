@@ -1,0 +1,21 @@
+[
+{
+  "directory": "C:\\Users\\rayga\\Projects\\reaimgui-addon-from-scratch",
+  "arguments": ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.reaper_reaimgui_myaddon_x64.pdb", "/Ox", "/fp:fast", "/std:c++17", "/I", "vendor", "/I", "vendor\\reaper-sdk\\sdk", "/IC:\\Users\\rayga\\AppData\\Local\\.xmake\\packages\\i\\imgui\\v1.82\\8574311f4b544fa89a3d8c3ee79d1929\\include", "/Fobuild\\.objs\\reaper_reaimgui_myaddon_x64\\windows\\x64\\debug\\src\\api.cpp.obj", "src\\api.cpp"],
+  "file": "src\\api.cpp"
+},
+{
+  "directory": "C:\\Users\\rayga\\Projects\\reaimgui-addon-from-scratch",
+  "arguments": ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.reaper_reaimgui_myaddon_x64.pdb", "/Ox", "/fp:fast", "/std:c++17", "/I", "vendor", "/I", "vendor\\reaper-sdk\\sdk", "/IC:\\Users\\rayga\\AppData\\Local\\.xmake\\packages\\i\\imgui\\v1.82\\8574311f4b544fa89a3d8c3ee79d1929\\include", "/Fobuild\\.objs\\reaper_reaimgui_myaddon_x64\\windows\\x64\\debug\\src\\main.cpp.obj", "src\\main.cpp"],
+  "file": "src\\main.cpp"
+},
+{
+  "directory": "C:\\Users\\rayga\\Projects\\reaimgui-addon-from-scratch",
+  "arguments": ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.reaper_reaimgui_myaddon_x64.pdb", "/Ox", "/fp:fast", "/std:c++17", "/I", "vendor", "/I", "vendor\\reaper-sdk\\sdk", "/IC:\\Users\\rayga\\AppData\\Local\\.xmake\\packages\\i\\imgui\\v1.82\\8574311f4b544fa89a3d8c3ee79d1929\\include", "/Fobuild\\.objs\\reaper_reaimgui_myaddon_x64\\windows\\x64\\debug\\src\\utils.cpp.obj", "src\\utils.cpp"],
+  "file": "src\\utils.cpp"
+},
+{
+  "directory": "C:\\Users\\rayga\\Projects\\reaimgui-addon-from-scratch",
+  "arguments": ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe", "/c", "/EHsc", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.reaper_reaimgui_myaddon_x64.pdb", "/Ox", "/fp:fast", "/std:c++17", "/I", "vendor", "/I", "vendor\\reaper-sdk\\sdk", "/IC:\\Users\\rayga\\AppData\\Local\\.xmake\\packages\\i\\imgui\\v1.82\\8574311f4b544fa89a3d8c3ee79d1929\\include", "/Fobuild\\.objs\\reaper_reaimgui_myaddon_x64\\windows\\x64\\debug\\src\\widgets\\my-widget.cpp.obj", "src\\widgets\\my-widget.cpp"],
+  "file": "src\\widgets\\my-widget.cpp"
+}]

@@ -1,0 +1,28 @@
+{
+  //"C_Cpp.clang_format_style": "file",
+
+  "clangd.arguments": [
+    "-pretty",
+    "-clang-tidy",
+    "-compile-commands-dir='./build'",
+    "-suggest-missing-includes",
+    "-header-insertion=iwyu", // Automatically add header insertions when accepting completion insertions
+    "-completion-style=detailed",
+    "-j=18",
+    "-background-index",
+    "-log=verbose"
+  ],
+
+
+  "cmake.sourceDirectory": "${workspaceFolder}",
+  "cmake.generator": "Ninja",
+  "cmake.environment": {
+    "VERBOSE": "1",
+    "VCPKG_ROOT": "C:\\Users\\rayga\\projects\\vcpkg",
+    "VCPKG_DEFAULT_TRIPLET": "x64-windows-static"
+  },
+  "cmake.configureSettings": {
+    "CMAKE_EXPORT_COMPILE_COMMANDS": 1,
+    "CMAKE_TOOLCHAIN_FILE": "C:\\Users\\rayga\\Projects\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake"
+  }
+}
