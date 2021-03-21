@@ -63,7 +63,8 @@ You can find the xmake build file at `./xmake.lua`
 
 To build the project:
 
-- Recursively clone the repo (to include submodule in `./vendor`): `$ git clone --recursive https://github.com/GavinRay97/reaimgui-extra-template.git`
+- Recursively clone the repo (to include submodule in `./vendor`):
+  - `$ git clone --recursive https://github.com/GavinRay97/reaimgui-extra-template.git`
 - Install xmake:
   - On unix systems, or Git Bash/MinGW: `bash <(curl -fsSL https://xmake.io/shget.text)`
   - On Windows: `Invoke-Expression (Invoke-Webrequest 'https://xmake.io/psget.text' -UseBasicParsing).Content`
