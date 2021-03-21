@@ -74,7 +74,7 @@ To build the project:
 - (Optional) Generate `CMakeLists.txt` and `compile_commands.json`:
   - `$ xmake generate_cmakelists_and_compile_commands`
 
-**You should now find the dynamic library inside of `./build/$PLATFORM/x64/debug**
+**You should now find the dynamic library inside of `./build/$PLATFORM/x64/debug`**
 
 ```lua
 -- Requires will try to use either system package manager, or third-party package manages (vcpkg, Conan, etc)
