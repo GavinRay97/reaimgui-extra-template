@@ -1,5 +1,11 @@
 # ReaImGui Extra Template
 
+- [ReaImGui Extra Template](#reaimgui-extra-template)
+  - [Intro](#intro)
+  - [Architecture](#architecture)
+  - [Installation/Building](#installationbuilding)
+  - [Acknowledgements](#acknowledgements)
+
 ## Intro
 
 This template shows how to implement an addon for ReaImGui which can use existing C++ ImGui widgets.
